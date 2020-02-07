@@ -1,0 +1,196 @@
+body {
+  font-family: 'Cabin', sans-serif;
+  color: #373A3C;
+  box-sizing: border-box;
+}
+
+body * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.logo {
+  font-family: 'Lobster', cursive;
+  font-size: 37px;
+}
+
+header {
+  margin-top: 85px;
+}
+
+.header_left {
+  padding-top: 15px;
+}
+
+.resumen_receta h1 {
+  font-size: 25px;
+  padding-top: 18px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+hr {
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  width: 87%;
+}
+
+.resumen_receta h4 {
+  padding-top: 20px;
+  font-size: 16px;
+  padding-bottom: 25px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.boton_header {
+  font-weight: 400;
+  border: 1px solid #DDDDDD;
+  background: white;
+  font-size: 13px;
+  margin-left: 15px;
+  color: #373A3C;
+  height: 40px;
+}
+
+.receta h6 {
+  padding: 35px 0px 25px 0px;
+  font-weight: 400;
+}
+
+.receta p {
+  padding: 15px 0px 15px 0px;
+}
+
+.receta article {
+  padding: 0% 10% 0% 10%;
+}
+
+.otras_recetas h4 {
+  font-size: 25px;
+  text-align: center;
+  padding: 7% 10% 14% 10%;
+  font-weight: 400;
+  border-top: 1px solid black;
+}
+
+.otras_recetas article {
+  padding: 0% 10% 8% 10%;
+}
+
+.otras_recetas h5 {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.newsletter {
+  background: #DC3545;
+  color: #FFFFFF;
+  padding: 0% 10% 0% 10%;
+  text-align: center;
+  height: 448px;
+}
+
+.newsletter h2 {
+  font-size: 30px;
+  padding: 95.5px 0px 22px 0px;
+}
+
+.newsletter p {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0px 0px 22px 0px;
+}
+
+span {
+  padding-bottom: 30px;
+  font-family: 'Lobster', cursive;
+}
+
+.btn-danger {
+  border: 1px solid #DDDDDD;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 5px 93px;
+}
+
+footer h4 {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 37px;
+  padding: 41px 0px 41px;
+}
+
+.carousel-indicators {
+  top: 190px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #373A3C;
+}
+
+div.col-12.text-white.rounded {
+  padding: 0px;
+}
+
+/* Sección Media Queries */
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .resumen_receta hr {
+    margin-right: 30%;
+    border-style: inset;
+    border-width: 1px;
+    width: 80%;
+    text-align: left;
+  }
+
+  .resumen_receta h1 {
+    font-size: 40px;
+    padding-right: 30%;
+    padding-bottom: 30px;
+  }
+
+  .resumen_receta h4 {
+    font-size: 20px;
+  }
+
+  .boton_header_izquierdo {
+    margin-left: 0px;
+  }
+
+  .carrousel,
+  .otras_recetas {
+    padding: 0% 10% 0% 10%;
+  }
+
+  .otras_recetas h4 {
+    font-size: 40px;
+    padding: 2% 0% 4% 0%;
+  }
+
+  article.col-md-4 {
+    padding: 0px 10px 62px;
+  }
+
+  .header_left {
+    padding-left: 9%;
+  }
+
+  .img_pizza {
+    max-width: 100%;
+  }
+
+  h5.card-title {
+    font-size: 23px;
+  }
+}
